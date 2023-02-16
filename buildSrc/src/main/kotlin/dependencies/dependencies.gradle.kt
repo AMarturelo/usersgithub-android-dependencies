@@ -1,6 +1,6 @@
-object Configuration{
-    const val projectName = "usersgithub-android-core"
-    const val groupName = "com.amarturelo.usersgithub.android"
-    const val versionName = "1.0.0"
-    const val artifactId = "core"
+object VersionApp{
+    //Sdk
+    const val compileSdkVersion = 31
+    const val targetSdkVersion = 31
+    const val minSdkVersion = 23
 }
