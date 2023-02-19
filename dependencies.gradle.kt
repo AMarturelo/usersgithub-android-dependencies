@@ -10,6 +10,8 @@ object VersionApp {
     const val androidGradlePluginVersion = "7.0.3"
 
     const val jacocoVersion = "7.0.3"
+
+    const val coreVersion = "1.0.3-SNAPSHOT"
 }
 
 object ClasspathDependencies {
@@ -20,4 +22,8 @@ object ClasspathDependencies {
     const val navComponentSafeVarargs =
         "androidx.navigation:navigation-safe-args-gradle-plugin:${VersionApp.navComponentVersion}"
     const val jacocoPuglin = "org.jacoco:org.jacoco.core:${VersionApp.jacocoVersion}"
+}
+
+object MainApplicationDependencies {
+    const val ugCore = "com.amarturelo.usersgithub.android:core:${VersionApp.coreVersion}"
 }
