@@ -38,7 +38,7 @@ object ApplicationDependencies {
     const val daggerCompiler = "com.google.dagger:dagger-compiler:${VersionApp.daggerVersion}"
     const val daggerAdroidProcessor =
         "com.google.dagger:dagger-android-processor:${VersionApp.daggerVersion}"
-    const val timber = "timberVersion:${VersionApp.timberVersion}"
+    const val timber = "com.jakewharton.timber:timber:${VersionApp.timberVersion}"
 
 
 }
