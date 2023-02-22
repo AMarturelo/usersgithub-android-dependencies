@@ -11,7 +11,7 @@ object VersionApp {
 
     const val jacocoVersion = "7.0.3"
 
-    const val coreVersion = "1.0.3-SNAPSHOT"
+    const val coreVersion = "1.0.0-SNAPSHOT"
 }
 
 object ClasspathDependencies {
