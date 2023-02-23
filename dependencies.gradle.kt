@@ -20,7 +20,6 @@ object VersionApp {
 
     const val lifecycleVersion = "2.4.0"
 
-    const val coreVersion = "1.0.4-SNAPSHOT"
 }
 
 object ClasspathDependencies {
@@ -31,11 +30,6 @@ object ClasspathDependencies {
     const val navComponentSafeVarargs =
         "androidx.navigation:navigation-safe-args-gradle-plugin:${VersionApp.navComponentVersion}"
     const val jacocoPuglin = "org.jacoco:org.jacoco.core:${VersionApp.jacocoVersion}"
-}
-
-
-object MainApplicationDependencies {
-    const val ugCore = "com.amarturelo.usersgithub.android:core:${VersionApp.coreVersion}"
 }
 
 object ApplicationDependencies {
@@ -57,9 +51,12 @@ object ApplicationDependencies {
     const val retrofit = "com.squareup.retrofit2:retrofit:${VersionApp.retrofitVersion}"
     const val gson = "com.squareup.retrofit2:converter-gson:${VersionApp.retrofitVersion}"
 
-    const val lifecycleViewmodel = "androidx.lifecycle:lifecycle-viewmodel-ktx:${VersionApp.lifecycleVersion}"
-    const val lifecycleRuntime = "androidx.lifecycle:lifecycle-runtime-ktx:${VersionApp.lifecycleVersion}"
-    const val lifecycleLivedata = "androidx.lifecycle:lifecycle-livedata-ktx:${VersionApp.lifecycleVersion}"
+    const val lifecycleViewmodel =
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:${VersionApp.lifecycleVersion}"
+    const val lifecycleRuntime =
+        "androidx.lifecycle:lifecycle-runtime-ktx:${VersionApp.lifecycleVersion}"
+    const val lifecycleLivedata =
+        "androidx.lifecycle:lifecycle-livedata-ktx:${VersionApp.lifecycleVersion}"
 
 
 }
