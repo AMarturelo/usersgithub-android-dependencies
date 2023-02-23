@@ -14,6 +14,12 @@ object VersionApp {
     const val coroutinesVersion = "1.6.1"
     const val daggerVersion = "2.40.5"
     const val timberVersion = "5.0.1"
+
+    const val okHttpVersion = "4.9.3"
+    const val retrofitVersion = "2.9.0"
+
+    const val lifecycleVersion = "2.4.0"
+
 }
 
 object ClasspathDependencies {
@@ -39,6 +45,18 @@ object ApplicationDependencies {
     const val daggerAdroidProcessor =
         "com.google.dagger:dagger-android-processor:${VersionApp.daggerVersion}"
     const val timber = "com.jakewharton.timber:timber:${VersionApp.timberVersion}"
+    const val okhttp3 = "com.squareup.okhttp3:okhttp:${VersionApp.okHttpVersion}"
+    const val okhttp3LoggingInterceptor =
+        "com.squareup.okhttp3:logging-interceptor:${VersionApp.okHttpVersion}"
+    const val retrofit = "com.squareup.retrofit2:retrofit:${VersionApp.retrofitVersion}"
+    const val gson = "com.squareup.retrofit2:converter-gson:${VersionApp.retrofitVersion}"
+
+    const val lifecycleViewmodel =
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:${VersionApp.lifecycleVersion}"
+    const val lifecycleRuntime =
+        "androidx.lifecycle:lifecycle-runtime-ktx:${VersionApp.lifecycleVersion}"
+    const val lifecycleLivedata =
+        "androidx.lifecycle:lifecycle-livedata-ktx:${VersionApp.lifecycleVersion}"
 
 
 }
