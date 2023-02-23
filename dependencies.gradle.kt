@@ -76,7 +76,7 @@ object VersionApp {
     const val prismaVersion = "1.1.10"
     const val flexboxVersion = "2.0.1"
     const val jacocoVersion = "7.0.3"
-    const val hiltVersion = "2.38.1"
+    const val hiltVersion = "2.44"
 
     //Unit Testing
     const val robolectricVersion = "4.7.3"
@@ -127,6 +127,9 @@ object ApplicationDependencies {
         "org.jetbrains.kotlinx:kotlinx-coroutines-core:${VersionApp.coroutinesVersion}"
     const val coroutinesAndroid =
         "org.jetbrains.kotlinx:kotlinx-coroutines-android:${VersionApp.coroutinesVersion}"
+
+    const val hiltAndroid = "com.google.dagger:hilt-android:${VersionApp.hiltVersion}"
+    const val hiltAndroidCompiler = "com.google.dagger:hilt-android-compiler:${VersionApp.hiltVersion}"
 
     const val dagger = "com.google.dagger:dagger:${VersionApp.daggerVersion}"
     const val daggerAndroid = "com.google.dagger:dagger-android:${VersionApp.daggerVersion}"
