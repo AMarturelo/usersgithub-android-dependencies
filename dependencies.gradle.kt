@@ -75,7 +75,7 @@ object VersionApp {
     const val androidChart = "v3.0.3"
     const val prismaVersion = "1.1.10"
     const val flexboxVersion = "2.0.1"
-    const val jacocoVersion = "7.0.3"
+    const val jacocoVersion = "0.8.7"
     const val hiltVersion = "2.38.1"
 
     //Unit Testing
@@ -108,6 +108,7 @@ object VersionApp {
 
 object ApplicationModules {
     const val ugCore = "com.amarturelo.usersgithub.android:core:1.0.6-SNAPSHOT"
+    const val ugFollowers = "com.amarturelo.usersgithub.android:followers:1.0.2-SNAPSHOT"
 }
 
 object ClasspathDependencies {
