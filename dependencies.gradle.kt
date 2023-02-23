@@ -194,7 +194,6 @@ object ApplicationDependencies {
     const val epoxyProcessor = "com.airbnb.android:epoxy-processor:${VersionApp.epoxyVersion}"
     const val gson = "com.google.code.gson:gson:${VersionApp.gsonVersion}"
     const val okhttp = "com.squareup.okhttp3:okhttp:${VersionApp.okhttpVersion}"
-    const val retrofitConverterGson = "com.squareup.retrofit2:converter-gson:${VersionApp.retrofitVersion}"
     const val okhttpLoggingInterceptor =
         "com.squareup.okhttp3:logging-interceptor:${VersionApp.okhttpVersion}"
     const val retrofitGson =
