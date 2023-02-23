@@ -76,6 +76,7 @@ object VersionApp {
     const val prismaVersion = "1.1.10"
     const val flexboxVersion = "2.0.1"
     const val jacocoVersion = "7.0.3"
+    const val hiltVersion = "2.38.1"
 
     //Unit Testing
     const val robolectricVersion = "4.7.3"
@@ -108,7 +109,8 @@ object VersionApp {
 object ClasspathDependencies {
     const val navComponentSafeVarargs =
         "androidx.navigation:navigation-safe-args-gradle-plugin:${VersionApp.navComponentVersion}"
-    const val jacocoPuglin = "org.jacoco:org.jacoco.core:${VersionApp.jacocoVersion}"
+    const val jacocoPlugin = "org.jacoco:org.jacoco.core:${VersionApp.jacocoVersion}"
+    const val hiltPlugin = "com.google.dagger:hilt-android-gradle-plugin:${VersionApp.hiltVersion}"
 
     const val kotlinGradlePlugin =
         "org.jetbrains.kotlin:kotlin-gradle-plugin:${VersionApp.kotlinVersion}"
