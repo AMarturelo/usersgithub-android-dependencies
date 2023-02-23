@@ -18,7 +18,9 @@ object VersionApp {
     const val okHttpVersion = "4.9.3"
     const val retrofitVersion = "2.9.0"
 
-    const val coreVersion = "1.0.1-SNAPSHOT"
+    const val lifecycleVersion = "2.4.0"
+
+    const val coreVersion = "1.0.4-SNAPSHOT"
 }
 
 object ClasspathDependencies {
@@ -54,6 +56,10 @@ object ApplicationDependencies {
         "com.squareup.okhttp3:logging-interceptor:${VersionApp.okHttpVersion}"
     const val retrofit = "com.squareup.retrofit2:retrofit:${VersionApp.retrofitVersion}"
     const val gson = "com.squareup.retrofit2:converter-gson:${VersionApp.retrofitVersion}"
+
+    const val lifecycleViewmodel = "androidx.lifecycle:lifecycle-viewmodel-ktx:${VersionApp.lifecycleVersion}"
+    const val lifecycleRuntime = "androidx.lifecycle:lifecycle-runtime-ktx:${VersionApp.lifecycleVersion}"
+    const val lifecycleLivedata = "androidx.lifecycle:lifecycle-livedata-ktx:${VersionApp.lifecycleVersion}"
 
 
 }
